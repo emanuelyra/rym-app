@@ -6,8 +6,8 @@ export default function Card({name, status, species, gender, origin, image, onCl
    return (
       <CardContainer>
          <ButtonCont> 
-         <Button onClick={onFavorites}>💛</Button>
-         <Button close onClick={() => onClose(id)}>❌</Button>
+         <Button onClick={onFavorites}>😍</Button>
+         <Button close onClick={() => onClose(id)}>🍎</Button>
          </ButtonCont>
         <Link to={`/detail/${id}`}> <Title> {name}</Title> </Link>  
          <Image src={image} alt = {`No se encuentra la imagen de ${name}`}/>

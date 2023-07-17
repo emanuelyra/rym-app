@@ -54,9 +54,7 @@ export const Label = styled.h4`
   font-weight: 400;
   color: white;
   margin: 0px;
-`;
-
-export const Image = styled.img`
+`;export const Image = styled.img`
   max-width: 75%;
   height: 30%;
   margin-top: 0.5rem;
