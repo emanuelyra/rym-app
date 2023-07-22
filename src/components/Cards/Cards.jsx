@@ -14,7 +14,7 @@ export default function Cards({characters, onClose}) {
       status={character.status}
       species={character.species}
       gender={character.gender}
-      origin={character.origin.name}git
+      origin={character.origin.name}
       image={character.image}
       onClose={onClose}
       onFavorites={() => window.alert('Emulamos que tenemos un favorito')}

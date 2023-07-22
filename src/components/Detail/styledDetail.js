@@ -1,29 +1,8 @@
-
 import styled from 'styled-components';
 
-export const Button = styled.button`
-  display: inline-block;
-  background-color: ${props => (props.close ? 'transparent' : 'black')};
-  border-radius: 5px;
-  border: none;
-  width: fit-content;
-  height: fit-content;
-  filter: brightness(0.8);
-  cursor: pointer;
-  padding: 0;
-
-  &:hover {
-    filter: brightness(1.5);
-    transform: scale(1.2);
-  }
-`;
-
-export const ButtonCont = styled.div`
-  display: flex;
-  width: 75%;
-  margin-top: 0.5rem;
-  justify-content: space-around;
-`;
+export const Container = styled.div`
+display: flex;
+justify-content: center;`
 
 export const CardContainer = styled.div`
   display: flex;
@@ -48,7 +27,6 @@ export const Title = styled.h2`
   font-weight: 700;
   color: white;
   margin-bottom: 0.5rem;
-  text-decoration: none;
 `;
 
 export const Label = styled.h4`

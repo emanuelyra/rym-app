@@ -1,7 +1,7 @@
 import React, { useEffect, useState }  from 'react'
 import axios from 'axios'
 import {useParams} from 'react-router-dom'
-
+import {Title, CardContainer, Image, Label, Container} from './styledDetail.js'
 
 function Detail() {
 
@@ -25,18 +25,20 @@ function Detail() {
 
 
   return (
-    <div>
+    <Container>
+      
+
  {characterDetail ? (
-  <div> 
-     <h2 style={{color: "white"}}>Nombre: {characterDetail.name} </h2>
-     <h4>{characterDetail.status}</h4>
-     <h4>{characterDetail.species}</h4>
-     <h4>{characterDetail.gender}</h4>
-     <h4>{characterDetail.origin?.name}</h4>
-     <img src={characterDetail.image} alt=""/>
-  </div>
+  <CardContainer> 
+     <Title style={{color: "white"}}>Nombre: {characterDetail.name} </Title>
+     <Image src={characterDetail.image} alt=""/>
+     <Label>{characterDetail.status}</Label>
+     <Label>{characterDetail.species}</Label>
+     <Label>{characterDetail.gender}</Label>
+     <Label>{characterDetail.origin?.name}</Label>
+  </CardContainer>
  ) : <h3> Loading ...</h3>}
-    </div>
+    </Container>
   )
 }
 
@@ -56,6 +58,26 @@ LINK
 
 detail.js
 const {id} = useParams() ---> id = 3
+
+! operador ternario
+
+characterDetail ? hace tal cosa : hace tal otra
+
+if(characterDetail === true) {
+   hace tal cosa
+} else {
+   hace tal otra
+}
+
+characterDetail && tal cosa
+
+if(characterDetail){
+   tal cosa
+}
+
+!characterDetail
+characterDetail === false
+
 
 
 */

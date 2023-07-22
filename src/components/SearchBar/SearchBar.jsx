@@ -26,7 +26,7 @@ const handleSearch = (id) => {
       <>
       <div>
          <input className={style.input} value ={id} id = 'inputSearch' type='search' placeholder="Ingresa un ID" onChange={handleChange}/>
-         <button onClick={()=>handleSearch(id)}><FcAdvance/></button>
+         <button onClick={()=>handleSearch(id)} className={style.btn}> GO </button>
       </div>
       
       </>
