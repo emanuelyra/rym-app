@@ -1,0 +1,58 @@
+body {
+    background-image: url(../../Assets/fondorym.jpg);
+    background-size: cover;
+    background-position: cover;
+  }
+  
+
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(2, 185, 27);
+  }
+  
+  input {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .danger {
+    color: red;
+  }
+  
+  button {
+    width: 30%;
+    height: 30%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #7445a0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: cover;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 28px;
+    box-shadow: 0 0 10px rgba(241, 239, 239, 0.1);
+    background-image: url('../../Assets/rickadmorty2.gif');
+    background-size: cover;
+    background-position: center;
+  }
+  
