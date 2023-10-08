@@ -1,0 +1,18 @@
+.details {  
+  width: 100%;
+  padding-right: 5px;
+  color: brown; 
+  align-items: center;
+  display: inline-block;  
+  text-align: center;
+ 
+}
+
+.imagen{  
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  
+  
+  
+}
